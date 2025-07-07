@@ -23,29 +23,9 @@ public class Main {
         System.out.println(response.text());
     }
 
-    public static class Movie {
-
-        public String title;
-        public double rating;
-        public String description;
-
-        Movie(String title, double rating, String description) {
-            this.title = title;
-            this.rating = rating;
-            this.description = description;
-        }
-    }
-
-    //store movies
-    public static List<Movie> movies = new ArrayList<>():
-}
-
-public static void addMovie(Client client, Scanner scanner) {
-    System.out.println("Enter movie title: ");
-    String title = scanner.nextLine();
-    System.out.println("Enter rating: ");
-    double rating;
-}
+@GetMapping("/add")
+public string renderAdd(){
+    return "<html>" + "<body>" + "<form ... >" + "<p> enter name: </p>" + ...
 
 //
 //        public static void main(String[] args) throws HttpException, IOException {
